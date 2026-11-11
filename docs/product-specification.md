@@ -1,6 +1,6 @@
-# FORM – Specyfikacja produktu
+FORM – Specyfikacja produktu
 
-## 1. Opis projektu
+1. Opis projektu
 
 FORM to aplikacja fitness przeznaczona dla wszystkich osób, które chcą planować treningi, zapisywać swoje wyniki i analizować postępy siłowe. Głównym celem projektu jest stworzenie prostego i intuicyjnego narzędzia, które ułatwi organizację aktywności fizycznej, monitorowanie rozwoju siły oraz obserwowanie własnych osiągnięć.
 
@@ -10,27 +10,224 @@ Projekt zakłada również kilka opcjonalnych funkcji dodatkowych. Jedną z nich
 
 FORM ma być aplikacją łatwą w obsłudze, która nie wymaga od użytkownika wprowadzania dużej ilości informacji. Najważniejsze czynności, takie jak rozpoczęcie treningu i zapisanie jego wyników, powinny być możliwe do wykonania szybko i bez zbędnych kroków.
 
-## 2. Grupa docelowa
+2. Grupa docelowa
 
 Aplikacja jest skierowana do wszystkich osób zainteresowanych aktywnością fizyczną, niezależnie od płci, wieku czy poziomu zaawansowania treningowego.
 
 FORM będzie szczególnie przydatna dla osób, które:
 
-- regularnie wykonują treningi siłowe,
-- chcą zapisywać ciężary, liczbę serii i powtórzeń,
-- chcą obserwować rozwój siły i porównywać wyniki,
-- potrzebują prostego narzędzia do planowania treningów,
-- chcą mieć historię swoich aktywności w jednym miejscu,
-- cenią szybkie i intuicyjne rozwiązania.
+regularnie wykonują treningi siłowe,
+
+chcą zapisywać ciężary, liczbę serii i powtórzeń,
+
+chcą obserwować rozwój siły i porównywać wyniki,
+
+potrzebują prostego narzędzia do planowania treningów,
+
+chcą mieć historię swoich aktywności w jednym miejscu,
+
+cenią szybkie i intuicyjne rozwiązania.
 
 Dodatkowy moduł śledzenia cyklu menstruacyjnego będzie dostępny dla zainteresowanych nim użytkowniczek, ale nie będzie wpływał na podstawowe działanie aplikacji. Korzystanie z tej funkcji nie będzie wymagane.
 
-## 3. Główne funkcjonalności
+3. Główne funkcjonalności
 
-### 3.1. Panel główny (Dashboard)
+3.1. Panel główny (Dashboard)
 
 Panel główny będzie przedstawiał najważniejsze informacje dotyczące aktywności użytkownika, między innymi:
 
-- ostatnie treningi,
-- liczbę treningów w bieżącym tygodniu,
-- podstawowe podsumowanie postępów,
+ostatnie treningi,
+
+liczbę treningów w bieżącym tygodniu,
+
+podstawowe podsumowanie postępów,
+
+najbliższe zaplanowane aktywności,
+
+ostatnie osiągnięcia.
+
+Celem panelu będzie zapewnienie szybkiego dostępu do najważniejszych funkcji aplikacji.
+
+3.2. Treningi (Workout Tracking)
+
+Moduł treningowy będzie główną częścią aplikacji. Umożliwi:
+
+przeglądanie dostępnej biblioteki ćwiczeń,
+
+tworzenie własnych planów treningowych,
+
+zapisywanie szablonów treningowych,
+
+rejestrowanie wykonanych ćwiczeń,
+
+zapisywanie liczby serii, powtórzeń i użytego ciężaru,
+
+opcjonalne zapisywanie czasu trwania treningu,
+
+przeglądanie historii wykonanych treningów.
+
+Użytkownik będzie mógł korzystać z wcześniej przygotowanych szablonów, dzięki czemu nie będzie musiał za każdym razem dodawać ćwiczeń od początku. Aplikacja może również umożliwiać kopiowanie wyników z poprzednich treningów, co przyspieszy uzupełnianie danych.
+
+3.3. Analiza postępów (Progress & Analytics)
+
+Moduł analizy postępów będzie pozwalał na obserwowanie zmian wyników treningowych w czasie.
+
+Planowane funkcje:
+
+wykresy zmian używanych ciężarów,
+
+porównywanie wyników tego samego ćwiczenia,
+
+analiza objętości treningowej,
+
+liczba wykonanych treningów w tygodniu i miesiącu,
+
+historia rekordów osobistych,
+
+podsumowania aktywności.
+
+Aplikacja będzie automatycznie wykrywać nowe rekordy osobiste, na przykład zwiększenie używanego ciężaru lub osiągnięcie większej liczby powtórzeń. Użytkownik otrzyma krótką informację o osiągnięciu.
+
+3.4. Śledzenie cyklu menstruacyjnego (Cycle Tracking)
+
+Jest to opcjonalna funkcja dodatkowa przeznaczona dla osób miesiączkujących. Jej zadaniem będzie umożliwienie uwzględnienia dat cyklu podczas analizy wyników treningowych.
+
+Moduł będzie umożliwiał:
+
+zapisywanie dat rozpoczęcia i zakończenia miesiączki,
+
+oznaczanie miesiączki w kalendarzu.
+
+Celem tej funkcji będzie umożliwienie użytkowniczce obserwowania własnych wzorców i sprawdzenia, czy w jej historii treningowej występują powtarzające się różnice w wynikach w określonych okresach cyklu.
+
+Podawanie danych dotyczących cyklu będzie dobrowolne. Użytkowniczka będzie mogła je edytować i usuwać. Aplikacja będzie działać również bez korzystania z tego modułu.
+
+3.5. Żywienie (Nutrition)
+
+Moduł żywieniowy będzie opcjonalnym rozszerzeniem aplikacji. Jego podstawowym zadaniem będzie umożliwienie użytkownikowi prowadzenia prostego dziennika żywieniowego i kontrolowania podstawowych wartości odżywczych spożywanych posiłków.
+
+Planowane funkcje:
+
+zapisywanie spożytych posiłków,
+
+określanie kaloryczności posiłków,
+
+zapisywanie podstawowych wartości makroskładników: białka, tłuszczów i węglowodanów,
+
+przeglądanie dziennego podsumowania spożycia,
+
+opcjonalne obliczanie orientacyjnego zapotrzebowania kalorycznego i ilości makroskładników w zależności od wybranego celu: redukcji masy ciała, utrzymania masy ciała lub zwiększenia masy ciała.
+
+Korzystanie z modułu żywieniowego nie będzie wymagane do korzystania z funkcji treningowych i analizy postępów. Obliczenia zapotrzebowania będą miały charakter orientacyjny i nie będą stanowić porady dietetycznej.
+
+3.6. Kalendarz i cele (Planner & Goals)
+
+Moduł planowania będzie pomagał w organizacji aktywności fizycznej.
+
+Planowane funkcje:
+
+kalendarz treningów,
+
+planowanie przyszłych treningów,
+
+wyznaczanie prostych celów treningowych,
+
+tygodniowe i miesięczne podsumowania aktywności.
+
+4. Wygoda użytkowania
+
+Jednym z głównych założeń projektu jest prostota obsługi. Aplikacja nie powinna wymagać od użytkownika uzupełniania wielu pól ani przechodzenia przez długie formularze.
+
+Najważniejsze założenia:
+
+szybkie zapisywanie treningów,
+
+możliwość korzystania z gotowych szablonów,
+
+czytelny układ aplikacji,
+
+łatwy dostęp do historii i statystyk,
+
+opcjonalność dodatkowych modułów,
+
+możliwość edytowania i usuwania zapisanych danych.
+
+5. Osiągnięcia i motywacja
+
+Aplikacja będzie mogła informować użytkownika o osiągnięciu nowych rekordów osobistych i innych ważnych postępach.
+
+Przykładowe rozwiązania:
+
+komunikaty o nowych rekordach,
+
+historia osiągnięć,
+
+krótkie gratulacje po osiągnięciu celu,
+
+opcjonalne animacje, na przykład konfetti.
+
+Elementy motywacyjne będą stosowane z umiarem i nie będą utrudniać korzystania z aplikacji.
+
+6. Bezpieczeństwo i prywatność
+
+Aplikacja będzie przechowywać dane dotyczące treningów oraz inne informacje dobrowolnie wprowadzone przez użytkownika.
+
+Założenia:
+
+dodatkowe moduły będą dobrowolne,
+
+użytkownik będzie miał możliwość edytowania i usuwania swoich danych,
+
+aplikacja nie będzie wymagać podawania danych, które nie są potrzebne do jej działania,
+
+funkcja śledzenia cyklu nie będzie stanowić porady medycznej ani narzędzia diagnostycznego.
+
+7. Planowane wersje aplikacji
+
+v0.1.0 – Podstawowe funkcje treningowe
+
+biblioteka ćwiczeń,
+
+tworzenie planów i szablonów treningowych,
+
+zapisywanie wykonanych treningów,
+
+rejestrowanie serii, powtórzeń i ciężarów,
+
+podstawowa historia treningowa.
+
+v0.2.0 – Analiza postępów i funkcje dodatkowe
+
+kalendarz treningowy,
+
+podstawowe wykresy i statystyki,
+
+wykrywanie rekordów osobistych,
+
+podstawowy moduł żywieniowy,
+
+możliwość zapisywania dat cyklu menstruacyjnego.
+
+v1.0.0 – Pełna wersja aplikacji
+
+rozwinięta analiza postępów treningowych,
+
+zestawianie historii treningów z zapisanymi datami cyklu,
+
+rozbudowane wizualizacje i podsumowania,
+
+system osiągnięć i komunikatów motywacyjnych,
+
+cele i planowanie aktywności,
+
+dopracowany interfejs użytkownika,
+
+komplet testów i dokumentacji.
+
+Zakres poszczególnych wersji może zostać doprecyzowany w trakcie realizacji projektu.
+
+9. Status projektu
+
+Projekt FORM jest obecnie na etapie planowania i przygotowywania specyfikacji produktu. Szczegółowa architektura, wybór bibliotek oraz sposób implementacji zostaną ustalone na dalszych etapach realizacji.
+
+Aplikacja będzie tworzona w języku C++.
