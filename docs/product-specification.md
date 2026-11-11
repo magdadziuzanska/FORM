@@ -1,6 +1,6 @@
-FORM – Specyfikacja produktu
+**FORM – Specyfikacja produktu**
 
-1. Opis projektu
+*1. Opis projektu*
 
 FORM to aplikacja fitness przeznaczona dla wszystkich osób, które chcą planować treningi, zapisywać swoje wyniki i analizować postępy siłowe. Głównym celem projektu jest stworzenie prostego i intuicyjnego narzędzia, które ułatwi organizację aktywności fizycznej, monitorowanie rozwoju siły oraz obserwowanie własnych osiągnięć.
 
@@ -10,7 +10,7 @@ Projekt zakłada również kilka opcjonalnych funkcji dodatkowych. Jedną z nich
 
 FORM ma być aplikacją łatwą w obsłudze, która nie wymaga od użytkownika wprowadzania dużej ilości informacji. Najważniejsze czynności, takie jak rozpoczęcie treningu i zapisanie jego wyników, powinny być możliwe do wykonania szybko i bez zbędnych kroków.
 
-2. Grupa docelowa
+*2. Grupa docelowa*
 
 Aplikacja jest skierowana do wszystkich osób zainteresowanych aktywnością fizyczną, niezależnie od płci, wieku czy poziomu zaawansowania treningowego.
 
@@ -30,7 +30,7 @@ cenią szybkie i intuicyjne rozwiązania.
 
 Dodatkowy moduł śledzenia cyklu menstruacyjnego będzie dostępny dla zainteresowanych nim użytkowniczek, ale nie będzie wpływał na podstawowe działanie aplikacji. Korzystanie z tej funkcji nie będzie wymagane.
 
-3. Główne funkcjonalności
+*3. Główne funkcjonalności*
 
 3.1. Panel główny (Dashboard)
 
@@ -134,7 +134,7 @@ wyznaczanie prostych celów treningowych,
 
 tygodniowe i miesięczne podsumowania aktywności.
 
-4. Wygoda użytkowania
+*4. Wygoda użytkowania*
 
 Jednym z głównych założeń projektu jest prostota obsługi. Aplikacja nie powinna wymagać od użytkownika uzupełniania wielu pól ani przechodzenia przez długie formularze.
 
@@ -152,7 +152,7 @@ opcjonalność dodatkowych modułów,
 
 możliwość edytowania i usuwania zapisanych danych.
 
-5. Osiągnięcia i motywacja
+*5. Osiągnięcia i motywacja*
 
 Aplikacja będzie mogła informować użytkownika o osiągnięciu nowych rekordów osobistych i innych ważnych postępach.
 
@@ -168,7 +168,7 @@ opcjonalne animacje, na przykład konfetti.
 
 Elementy motywacyjne będą stosowane z umiarem i nie będą utrudniać korzystania z aplikacji.
 
-6. Bezpieczeństwo i prywatność
+*6. Bezpieczeństwo i prywatność*
 
 Aplikacja będzie przechowywać dane dotyczące treningów oraz inne informacje dobrowolnie wprowadzone przez użytkownika.
 
@@ -182,9 +182,9 @@ aplikacja nie będzie wymagać podawania danych, które nie są potrzebne do jej
 
 funkcja śledzenia cyklu nie będzie stanowić porady medycznej ani narzędzia diagnostycznego.
 
-7. Planowane wersje aplikacji
+*7. Planowane wersje aplikacji*
 
-v0.1.0 – Podstawowe funkcje treningowe
+*v0.1.0 – Podstawowe funkcje treningowe*
 
 biblioteka ćwiczeń,
 
@@ -196,7 +196,7 @@ rejestrowanie serii, powtórzeń i ciężarów,
 
 podstawowa historia treningowa.
 
-v0.2.0 – Analiza postępów i funkcje dodatkowe
+*v0.2.0 – Analiza postępów i funkcje dodatkowe*
 
 kalendarz treningowy,
 
@@ -208,7 +208,7 @@ podstawowy moduł żywieniowy,
 
 możliwość zapisywania dat cyklu menstruacyjnego.
 
-v1.0.0 – Pełna wersja aplikacji
+*v1.0.0 – Pełna wersja aplikacji*
 
 rozwinięta analiza postępów treningowych,
 
@@ -226,7 +226,7 @@ komplet testów i dokumentacji.
 
 Zakres poszczególnych wersji może zostać doprecyzowany w trakcie realizacji projektu.
 
-9. Status projektu
+*9. Status projektu*
 
 Projekt FORM jest obecnie na etapie planowania i przygotowywania specyfikacji produktu. Szczegółowa architektura, wybór bibliotek oraz sposób implementacji zostaną ustalone na dalszych etapach realizacji.
 
