@@ -184,49 +184,41 @@ funkcja śledzenia cyklu nie będzie stanowić porady medycznej ani narzędzia d
 
 ## 7. Planowane wersje aplikacji
 
-v0.1.0 – Podstawowe funkcje treningowe
+Logika aplikacji (warstwa domenowa) jest rozwijana niezależnie od interfejsu użytkownika. Dzięki temu wersje pośrednie mogą korzystać z prostszego interfejsu, a docelowy interfejs graficzny jest wprowadzany stopniowo.
 
-biblioteka ćwiczeń,
+### v0.1.0 – Rdzeń aplikacji
 
-tworzenie planów i szablonów treningowych,
+- klasy domenowe: seria, ćwiczenia (z obciążeniem, z masą ciała, na czas), trening,
+- podstawowa biblioteka ćwiczeń,
+- testy jednostkowe warstwy domenowej,
+- automatyczny pipeline testowy i pipeline wydania,
+- tymczasowy interfejs konsolowy: dodawanie treningu i przeglądanie historii.
 
-zapisywanie wykonanych treningów,
+### v0.2.0 – Interfejs graficzny i postępy
 
-rejestrowanie serii, powtórzeń i ciężarów,
+- interfejs graficzny (Dear ImGui) zastępujący interfejs konsolowy,
+- ekran zapisywania treningu, historia treningów, szablony treningowe,
+- zapisywanie danych do pliku (JSON),
+- automatyczne wykrywanie rekordów osobistych,
+- podstawowe wykresy postępów (ImPlot).
 
-podstawowa historia treningowa.
+### v1.0.0 – Pełna wersja aplikacji
 
-v0.2.0 – Analiza postępów i funkcje dodatkowe
+- panel główny (dashboard),
+- kalendarz treningów i cele treningowe,
+- system osiągnięć z komunikatami i animacjami,
+- rozbudowane statystyki i wizualizacje,
+- dopracowany wygląd interfejsu,
+- komplet testów i dokumentacji (diagram klas, mapa koncepcji obiektowych, rejestr użycia LLM).
 
-kalendarz treningowy,
+### Funkcje opcjonalne (realizowane w miarę dostępnego czasu)
 
-podstawowe wykresy i statystyki,
+- moduł żywieniowy,
+- śledzenie cyklu menstruacyjnego i zestawianie go z historią treningów.
 
-wykrywanie rekordów osobistych,
+Funkcje opcjonalne nie są wymagane do działania podstawowej części aplikacji. Zakres poszczególnych wersji może zostać doprecyzowany w trakcie realizacji projektu.
 
-podstawowy moduł żywieniowy,
-
-możliwość zapisywania dat cyklu menstruacyjnego.
-
-v1.0.0 – Pełna wersja aplikacji
-
-rozwinięta analiza postępów treningowych,
-
-zestawianie historii treningów z zapisanymi datami cyklu,
-
-rozbudowane wizualizacje i podsumowania,
-
-system osiągnięć i komunikatów motywacyjnych,
-
-cele i planowanie aktywności,
-
-dopracowany interfejs użytkownika,
-
-komplet testów i dokumentacji.
-
-Zakres poszczególnych wersji może zostać doprecyzowany w trakcie realizacji projektu.
-
-## 9. Status projektu
+## 8. Status projektu
 
 Projekt FORM jest obecnie na etapie planowania i przygotowywania specyfikacji produktu. Szczegółowa architektura, wybór bibliotek oraz sposób implementacji zostaną ustalone na dalszych etapach realizacji.
 
