@@ -1,17 +1,17 @@
-name: CI // nazwa pipelinu Continous Integration 
+name: CI # nazwa pipelinu Continous Integration 
 
-on: // kiedy pipeline sie uruchamia
+on: # kiedy pipeline sie uruchamia
   push:
-    branches: [main] // przy kazdym pushu do main
+    branches: [main] # przy kazdym pushu do main
   pull_request:
-    branches: [main] // przy kazdym pull requesscie zeby testy odpalaly sie przed scaleniem a nie dopuero po 
+    branches: [main] # przy kazdym pull requesscie zeby testy odpalaly sie przed scaleniem a nie dopuero po 
 
-jobs: //zad do wykonania 
+jobs: #zad do wykonania 
   build-and-test:
     runs-on: windows-latest
     steps:
       - name: Pobierz kod
-        uses: actions/checkout@v4 //gotowa akcja od GitHuba, która pobiera kod na serwer. @v4 to jej wersja.
+        uses: actions/checkout@v4 #gotowa akcja od GitHuba, która pobiera kod na serwer. @v4 to jej wersja.
 
       - name: Konfiguracja CMake
         run: cmake -S . -B build
@@ -20,4 +20,4 @@ jobs: //zad do wykonania
         run: cmake --build build --config Release
 
       - name: Testy
-        run: ctest --test-dir build -C Release --output-on-failure //uruchomienie testow 
+        run: ctest --test-dir build -C Release --output-on-failure #uruchomienie testow 
