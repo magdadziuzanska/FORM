@@ -68,7 +68,7 @@ Testing/
 .cache/
 
 # IDE i edytory
-   .vscode/
-   .idea/
-   cmake-build-*/
-   .vs/
+.vscode/
+.idea/
+cmake-build-*/
+.vs/
